@@ -3,7 +3,7 @@
   (general
     (thickness 1.6002)
     (drawings 23)
-    (tracks 187)
+    (tracks 191)
     (zones 0)
     (modules 30)
     (nets 35)
@@ -1642,7 +1642,11 @@
   (segment (start 102 79.6) (end 102 46.12) (width 0.5) (layer Front) (net 2))
   (via (at 85.09 72.39) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
   (via (at 95.885 72.39) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
-  (via (at 108.25 73.25) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
+  (via (at 104.14 69.85) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
+  (via (at 94.615 47.625) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
+  (via (at 94.615 50.165) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
+  (via (at 94.615 52.705) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
+  (via (at 93.98 73.66) (size 0.8) (drill 0.4) (layers Front Back) (net 3))
   (segment (start 84.815169 36.555169) (end 96.850201 48.590201) (width 0.25) (layer Back) (net 4))
   (segment (start 79.598469 36.555169) (end 84.815169 36.555169) (width 0.25) (layer Back) (net 4))
   (segment (start 68.61196 47.541678) (end 79.598469 36.555169) (width 0.25) (layer Back) (net 4))
@@ -1819,7 +1823,7 @@
   (segment (start 80.350641 138.828238) (end 80.678238 138.500641) (width 0.5) (layer Front) (net 34))
   (segment (start 75.979359 138.828238) (end 80.350641 138.828238) (width 0.5) (layer Front) (net 34))
 
-  (zone (net 3) (net_name GND) (layer Back) (tstamp 6036321D) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer Back) (tstamp 60362E65) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2391,8 +2395,23 @@
         (xy 85.579801 36.245) (xy 106.664166 36.245)
       )
     )
+    (filled_polygon
+      (pts
+        (xy 96.272421 54.167223) (xy 96.2152 54.454896) (xy 96.2152 54.500398) (xy 91.692 49.977199) (xy 91.692 49.586801)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 96.272421 51.627223) (xy 96.2152 51.914896) (xy 96.2152 51.960398) (xy 92.454 48.199199) (xy 92.454 47.808801)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 96.272421 49.087224) (xy 96.2152 49.374896) (xy 96.2152 49.420398) (xy 93.724 46.929199) (xy 93.724 46.538803)
+      )
+    )
   )
-  (zone (net 3) (net_name GND) (layer Front) (tstamp 6036321A) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer Front) (tstamp 60362E62) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3294,6 +3313,12 @@
         (xy 85.331256 137.301666) (xy 91.339865 137.301666) (xy 91.383334 137.305947) (xy 91.426803 137.301666) (xy 91.426811 137.301666)
         (xy 91.556824 137.288861) (xy 91.723647 137.238255) (xy 91.877393 137.156077) (xy 92.012151 137.045483) (xy 92.039868 137.01171)
         (xy 92.563507 136.488072) (xy 92.599437 136.488072)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 96.500198 75.985) (xy 96.37374 75.985) (xy 96.153593 76.02879) (xy 88.238605 68.113804) (xy 88.214802 68.0848)
+        (xy 88.196768 68.07) (xy 88.585199 68.07)
       )
     )
   )
